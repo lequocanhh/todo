@@ -54,7 +54,7 @@ export const AppProvider = ({ children }) => {
         })
         const userUpdated = res.data
         setUserData(sortDatabyTaskCompleted(updateUserMarked(userUpdated)))
-        console.log(userUpdated);
+        setTaskId('')
     } catch (error) {
         console.log(error);
     }

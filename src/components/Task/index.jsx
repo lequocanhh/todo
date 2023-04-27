@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { AppContext } from "../../Context/AppContext";
+import { AppContext } from "../../context/AppContext";
 
 const Task = () => {
   const { userData, hasUserData, taskId, setTaskId } = useContext(AppContext);

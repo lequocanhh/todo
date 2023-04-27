@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { AppContext } from "../../Context/AppContext";
+import { AppContext } from "../../context/AppContext";
 
 const User = () => {
   const { users, selectOption, setSelectOption } = useContext(AppContext);

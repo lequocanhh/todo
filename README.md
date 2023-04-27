@@ -6,6 +6,28 @@ Use Bootstrap to design interfaces: Bootstrap is a popular web interface design 
 
 Using Context and `useContext` to manage data, using useContext to reuse and share information: Context and `useContext` make it easy to reuse and share information between components It saves time and effort in programming, reduces the complexity of the code, and makes the code clearer and easier to understand.
 
+## Code structure
+
+components: where to store system components
+context: manage states
+utils: where to help make requests
+
+$ tree
+src
+├── components
+│ ├── Task
+│ └── User
+├── context
+│ └── AppContext.js
+├── utils
+│ └── request.js
+├── App.js
+├── index.css
+├── index.js
+├── package-lock.json
+├── package.json
+└── README.md
+
 ## Getting started
 
 Step 1: Install the project dependencies:

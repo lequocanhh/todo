@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Task from "./components/Task";
 import User from "./components/User";
-import { AppProvider } from "./Context/AppContext";
+import { AppProvider } from "./context/AppContext";
 
 
 function App() {
