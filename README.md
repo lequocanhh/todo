@@ -9,10 +9,14 @@ Using Context and `useContext` to manage data, using useContext to reuse and sha
 ## Code structure
 
 components: where to store system components
+
 context: manage states
+
 utils: where to help make requests
 
 $ tree
+
+```bash
 src
 ├── components
 │ ├── Task
@@ -27,6 +31,7 @@ src
 ├── package-lock.json
 ├── package.json
 └── README.md
+```
 
 ## Getting started
 
